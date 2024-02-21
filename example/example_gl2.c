@@ -19,6 +19,8 @@
 #include <stdio.h>
 #ifdef NANOVG_GLEW
 #  include <GL/glew.h>
+#elif NANOVG_GLAD
+#  include <glad/glad.h>
 #endif
 #define GLFW_INCLUDE_GLEXT
 #include <GLFW/glfw3.h>
